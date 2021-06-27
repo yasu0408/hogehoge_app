@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  root "homes#index"
+  root to: "homes#index"
+  resources :videos
+  resources :texts
 end
