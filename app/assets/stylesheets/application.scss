@@ -14,3 +14,25 @@
  *= require_self
  */
 @import "bootstrap/scss/bootstrap";
+.top {
+  width: 100%;
+  margin: 0px auto 0px auto;
+}
+#top_image {
+  width: 100%;
+}
+.container {
+  width: 800px;
+  margin: 0px auto 0px auto;
+  padding: 0px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  color: white;
+  padding: 30px 0px;
+  font-size: 20px;
+}
